@@ -3,14 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
     <title>HTML LAB</title>
 </head>
+
 <body>
-    <div id = "header-el">
-        <img src="" alt="restaurant logo"/>
-        <a href = "" ><img src="" alt="sign in icon"/></a>
-        <a href=""><button id="menu-btn">Menu</button></a>
-        <a href=""><button id="catering-btn">Catering</button></a>
-    </div>   
+    <!-- Navigation header  -->
+    <header>
+        <nav class="header"> 
+            <div class =restaurant-logo>
+                <!-- <img src = "../images/IndianResLogo.jpg" alt="restaurant-logo"> -->
+            </div>
+            <div class= nav-elements>
+            <ul>
+                <li><a href = "" ><img src="../images/Login Icon.png" alt="sign in icon"/></a></li>
+                <li><a href=""><button id="reservation-btn">Reservation</button></a></li>
+                <li><a href=""><button id="catering-btn">Catering</button></a></li>
+                <li><a href=""><button id="menu-btn">Menu</button></a></li>
+              
+            </ul>  
+        </div>            
+        </nav>
+    </header>
+<br/><br/><br/>
+        <!--  -->
+    <div id = "mainpicture-container">
+        <div id ="Welcome-container">
+            <p>Welcome to Indian Kitchen!</p>
+            <p>Order Online here</p>
+            <button id= "order-online-btn">Menu</button>
+            <!-- <img src="../images/main picture.webp" alt="Indian thali spread"/> -->
+        </div>
+    </div> 
+    <br/><br/><br/><br/><br/><br/>  
+    <div id="food-picture-container">
+        <div>
+            <img src="../images/butter chicken.jpg" alt="FoodPicture1"/>
+        </div>
+        <div>
+            <img src="../images/dosa.jpg" alt="FoodPicture2"/>
+        </div>
+        <div>
+            <img src="../images/rasamalai.jpeg" alt="FoodPicture3"/>
+        </div>
+    </div>
+    <br/><br/><br/><br/>
+    <!-- Container to hold customer reviews -->
+    <div>
+        <div id="review-header">
+            <h3>Reviews from Our Customers</h3>
+        </div>
+        <div id="review-container">
+
+        </div>
+    </div>
+    <div id="footer-el">
+        <p>Location</p>
+        <div id="contact-container">
+            <a href = "https://www.facbook.com" ><img src="../images/fblogo.webp" alt="facebook icon"/></a>
+            <a href = "mailto:abc@gmail.com " ><img src="../images/mail icon.jpg" alt="email icon"/></a>
+            <a href = "tel: 1234567890 " ><img src="../images/telIcon.png" alt="telephone icon"/></a>
+        </div>
+    </div>
+
 </body>
-</html>
